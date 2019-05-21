@@ -7,3 +7,5 @@
 /TrainingDairyApi/DairyApi/obj
 /TrainingDairyApi/Domain/obj
 /TrainingDairyApi/DairyApi/Properties
+/TrainingDairyApi/DairyApi/bin/Debug/netcoreapp2.0
+/TrainingDairyApi/Domain/bin/Debug/netcoreapp2.0
