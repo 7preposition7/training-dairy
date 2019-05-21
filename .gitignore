@@ -3,3 +3,7 @@
 ################################################################################
 
 /TrainingDairyApi/.vs/TrainingDairyApi/v15
+/TrainingDairyApi/DairyApi/obj/Debug/netcoreapp2.0
+/TrainingDairyApi/DairyApi/obj
+/TrainingDairyApi/Domain/obj
+/TrainingDairyApi/DairyApi/Properties

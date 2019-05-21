@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DairyApi", "DairyApi\DairyApi.csproj", "{18141099-3922-4B28-85BC-8479571E65EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{02D2DAC4-08AB-44B8-89CD-2F9565F07F79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18141099-3922-4B28-85BC-8479571E65EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18141099-3922-4B28-85BC-8479571E65EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18141099-3922-4B28-85BC-8479571E65EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18141099-3922-4B28-85BC-8479571E65EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D2DAC4-08AB-44B8-89CD-2F9565F07F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D2DAC4-08AB-44B8-89CD-2F9565F07F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D2DAC4-08AB-44B8-89CD-2F9565F07F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D2DAC4-08AB-44B8-89CD-2F9565F07F79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {409B873C-6FD9-48C1-9378-785F44F9808D}
+	EndGlobalSection
+EndGlobal
