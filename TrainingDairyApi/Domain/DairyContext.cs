@@ -25,5 +25,6 @@ namespace Domain
         }
 
         public new DbSet<AppUser> Users { get; set; }
+        public DbSet<Training> Trainings { get; set; }
     }
 }
