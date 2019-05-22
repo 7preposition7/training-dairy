@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using Domain;
+using Domain.Interfaces;
+using Domain.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,7 +34,9 @@ namespace DairyApi
             services.AddMvc();
             services.AddCors();
 
+            services.AddAutoMapper();
             services.AddDbContext<DairyContext>(c => c.UseSqlServer(Configuration.GetConnectionString("EFConnectionString")));
+            services.AddScoped<ITrainingService, TrainingService>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
